@@ -1,5 +1,10 @@
 # 组件化demo  
 里面用到的组件化插件源码可以参考[ComponentMaster](https://github.com/412960979/ComponentMaster)  
+## 项目结构  
+app负责打包，不写具体的业务代码  
+library文件夹下面的所有library项目都可以供其它的组件化模块依赖  
+modules文件夹下面的所有模块是具体的业务组件模块  
+resource模块存放所有业务组件模块需要用到的的资源文件  
 ## 使用方法  
 1.顶级项目build  
 ```  

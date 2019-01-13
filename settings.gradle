@@ -1,1 +1,1 @@
-include ':app', ':modules:index'
+include ':app', ':modules:index', ':library:baselibrary', ':resource'
