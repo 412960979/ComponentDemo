@@ -24,7 +24,7 @@ android {
 
     sourceSets {
         main {
-            project.file("src/modules").eachDir {
+            project.file("src/main").eachDir {
                 assets.srcDirs += new File(it, "assets")
                 res.srcDirs += new File(it, "res")
             }
